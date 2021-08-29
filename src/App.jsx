@@ -1,12 +1,14 @@
 import React from 'react';
-import Card from './components/card/card';
+import Header from './components/header/header'
+import Main from './components/main/main';
 import { GlobalStyle } from './styles/global.styles';
 
 function App() {
   return (
     <>
       <GlobalStyle />
-      <Card />
+      <Header />
+      <Main />
     </>
   );
 }

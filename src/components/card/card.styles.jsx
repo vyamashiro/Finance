@@ -1,19 +1,14 @@
 import styled from 'styled-components';
 
 export const Container = styled.section`
-    /* animation: slideUp 0.5s ease-out; */
     background-color: #FFFFFF;
     border-radius: 10px;
-    box-shadow: 2px 2px 1px 0 rgb(26 57 144 / 25%); //revisar
+    box-shadow: 2px 2px 1px 0 rgb(26 57 144 / 25%);
     display: flex;
     flex-direction: column;
     font-family: sans-serif;
-    margin: 20px;
-    /* min-height: 300px; */
-    /* max-heigth: */
-    /* max-width: */
+    margin: 20px auto;
     width: 300px;
-    /* min-width: 300px; */
     padding: 20px;
 `
 
@@ -32,13 +27,12 @@ export const MoreOptionButton = styled.button`
     border: none;
     border-radius: 2rem;
     cursor: pointer;
-    height: 2rem;
-    width: 2rem;
+    height: 2.2rem;
+    width: 2.25rem;
 
     :hover {
         background-color: #E8EBF6;
-        transition: background-color 0.1s ease-in;
-        -webkit-transition: background-color 0.1s ease-in;
+        transition-duration: 400ms;
     }
 `
 
@@ -68,10 +62,9 @@ export const Footer = styled.footer`
 `
 
 export const ButtonMoreOptions = styled.button`
-    background: inherit;
+    background: transparent;
     border: 1px solid #3B5CB8;
     border-radius: 20px;
-    box-shadow: 2px 2px 1px 0 rgb(26 57 144 / 25%); //revisar
     color: #3B5CB8;
     cursor: pointer;
     font-weight: 900;
@@ -80,6 +73,8 @@ export const ButtonMoreOptions = styled.button`
     text-transform: uppercase;
 
     :hover {
-        filter: brightness(50%);
+        color: #FFFFFF;
+        background-color:#3B5CB8;
+        transition-duration: 400ms;
     }
 `
