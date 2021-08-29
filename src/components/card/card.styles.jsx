@@ -44,6 +44,10 @@ export const H3 = styled.h3`
     margin-top: 5px;
 `
 
+export const Ol = styled.ol`
+    padding-inline-start: 0px;
+`
+
 export const Li = styled.li`
     justify-content: space-between;
     display: flex;
