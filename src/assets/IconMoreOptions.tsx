@@ -1,4 +1,4 @@
-import * as React from "react"
+import * as React from 'react';
 
 export default function IconMoreOptions() {
   return (
@@ -14,5 +14,5 @@ export default function IconMoreOptions() {
         fill="#9aa3bc"
       />
     </svg>
-  )
+  );
 }

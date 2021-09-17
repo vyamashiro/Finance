@@ -1,6 +1,6 @@
 import { createGlobalStyle } from 'styled-components';
 
-export const GlobalStyle = createGlobalStyle`
+const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
     font-family: sans-serif;
     margin: 0;
@@ -27,4 +27,6 @@ export const GlobalStyle = createGlobalStyle`
         margin-bottom: 10px;
     }
     
-`
+`;
+
+export default GlobalStyle;

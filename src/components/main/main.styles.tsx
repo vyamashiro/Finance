@@ -1,5 +1,7 @@
 import styled from 'styled-components';
 
-export const Container = styled.main`
+const Container = styled.main`
     margin-top: 100px;
-`
+`;
+
+export default Container;

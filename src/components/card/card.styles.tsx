@@ -10,7 +10,7 @@ export const Container = styled.section`
     margin: 20px auto;
     width: 300px;
     padding: 20px;
-`
+`;
 
 export const Header = styled.header`
     align-items: center;
@@ -20,7 +20,7 @@ export const Header = styled.header`
     justify-content: space-between;
     margin-bottom: 20px;
     margin-top: 10px;
-`
+`;
 
 export const MoreOptionButton = styled.button`
     background-color: inherit;
@@ -34,36 +34,36 @@ export const MoreOptionButton = styled.button`
         background-color: #E8EBF6;
         transition-duration: 400ms;
     }
-`
+`;
 
 export const Main = styled.main`
     text-align: center;
-`
+`;
 
 export const H3 = styled.h3`
     margin-top: 5px;
-`
+`;
 
 export const Ol = styled.ol`
     padding-inline-start: 0px;
-`
+`;
 
 export const Li = styled.li`
     justify-content: space-between;
     display: flex;
-`
+`;
 
 export const Value = styled.span`
     color: #3B5CB8;
     font-weight: 900;
-`
+`;
 
 export const Footer = styled.footer`
     border-top: 0.5px solid #9AA3BC;
     display: flex;
     margin-top: 10px;
     justify-content: flex-end;
-`
+`;
 
 export const ButtonMoreOptions = styled.button`
     background: transparent;
@@ -81,4 +81,4 @@ export const ButtonMoreOptions = styled.button`
         background-color:#3B5CB8;
         transition-duration: 400ms;
     }
-`
+`;
