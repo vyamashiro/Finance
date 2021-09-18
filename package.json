@@ -4,7 +4,7 @@
   "private": true,
   "husky": {
     "hooks": {
-      "pre-commit": "echo 'testxx233"
+      "pre-commit": "yarn test"
     }
   },
   "dependencies": {
