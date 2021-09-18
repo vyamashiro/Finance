@@ -4,7 +4,7 @@
   "private": true,
   "husky": {
     "hooks": {
-      "pre-commit": "echo 'testxx2"
+      "pre-commit": "echo 'testxx233"
     }
   },
   "dependencies": {
