@@ -3,6 +3,7 @@ import { Container, Header, MoreOptionButton, Main, H3, Ol, Li, Value, Footer, B
 import IconMoreOptions from '../../assets/IconMoreOptions';
 import { useQuery } from '@apollo/client';
 import WEALTH_SUMMARY from '../../querys/querys';
+import { ICard } from './card.types';
 
 export default function Card() {
     const [isVisible, setIsVisible] = useState(true)
@@ -11,14 +12,14 @@ export default function Card() {
     if (loading) { return <p>Carregando...</p>;}
     if (error) { return <p>Ocorreu um erro, tente novamente mais tarde.</p>;}
 
-    const handleVisibility = (e) => { 
-        e.preventDefault();
+    const handleVisibility = (event: { preventDefault: () => void; }) => { 
+        event.preventDefault();
         setIsVisible(!isVisible)
     }
 
     return(
         <>
-            {data.wealthSummary.map((info, index) => (
+            {data.wealthSummary.map((info: ICard, index: string) => (
                 <Container key={index}>
                     <Header>
                         <h1>Investimento {info.id}</h1>
